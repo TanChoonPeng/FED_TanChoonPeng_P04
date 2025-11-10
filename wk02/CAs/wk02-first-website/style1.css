@@ -1,0 +1,30 @@
+h1{color:red}
+h2{color:#717116}
+h3{color:rgb(159, 14, 159)}
+h4{color:rgb(11, 107, 49)}
+p{color:rgba(75, 2, 69, 0.8)}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+li{
+  color: blueviolet;
+}
+body{
+  background-color: powderblue
+}
+span{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+}
+#title-style1{color:#717116; padding-right:0.5em}
+#title-style2{color:rgb(159, 14, 159); padding-right:0.5em}
+#title-style3{color:rgb(11, 107, 49);padding-right:0.5em}
+
+.title-background{
+  background-color: lightyellow;
+  padding: 10px;
+  border-radius: 15px;
+}

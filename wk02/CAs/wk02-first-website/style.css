@@ -1,0 +1,41 @@
+h1{
+  /* color:peru */
+  color: #CD853F
+}
+
+h2{
+  color:red
+}
+
+h3{
+  color:rgb(14, 159, 159)
+}
+
+h4{
+  color:rgba(138, 147, 4,0.6)
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  /* border-radius: 50%; */
+}
+
+li{
+  color: blueviolet;
+}
+
+body{
+  background-color: powderblue
+}
+
+#myElement{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.myClass{
+  /* text-align: right; */
+  text-align:left
+}
