@@ -1,0 +1,126 @@
+<!-- Author: John Doe -->
+<!-- Date Created: 17 Oct 24 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first HTML page</title>
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <!-- import in google fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+            rel="stylesheet"
+         />
+        <style>
+            body { 
+                font-family: "Roboto", sans-serif;
+            }
+            th {
+                color:bisque; 
+                background-color: brown;
+                padding: 5px;
+                /* border: 1px solid brown; */
+            }
+            td {
+                padding: 5px;
+                text-align: center;
+                /* border: 1px solid brown; */
+            } 
+            .flex-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 80%;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <section style="flex-basis:30%;">
+                <h1>I am John Doe</h1>
+                <img src="images/John.jpg" alt="John Doe" style="max-width:100%">   
+            </section>
+            <aside style="flex-basis:66%; background-color:beige; padding:2%;">
+                <p>I am a web developer, 
+                    <a href="https://github.com/TanChoonPeng/FED_Practicals" target="_blank">Github Repository</a></p>
+                </p>
+                <p>These are the 
+                    <span style="color:red;"><b><em>programming languages</em></b></span> 
+                    I know:
+                </p>
+                <ol>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>JavaScript</li>
+                    <li>C#</li>
+                    <li>Python</li>
+                    <li>PHP</li>
+                </ol>
+            </aside>
+            <section style="flex-basis: 100%">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <tr>
+                        <th>Week</th>
+                        <th>Exercises</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="wk01/CAs/wk01-CA-MakeARecipe/index.html" target="_blank">Make a Recipe</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a href="wk02/CAs/wk02-semantic-exercise/index.html" target="_blank">Semantic Exercise</a>, 
+                            <a href="wk02/CAs/wk02-semantic-exercise-vr/index.html" target="_blank">Semantic Exercise (VR)</a>, 
+                            <a href="wk02/CAs/wk02-css-id-class/index.html" target="_blank">CSS Selectors - ID and Class</a>, 
+                            <a href="wk02/CAs/wk02-googlefont/index.html" target="_blank">Importing Google Fonts</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a href="wk03/CAs/wk03-form/index.html" target="_blank">Forms</a>, 
+                            <a href="wk03/CAs/wk03-ca-zindex/index.html" target="_blank">Z-index</a>, 
+                            <a href="wk03/CAs/wk03-ca-flex-skeleton/index.html" target="_blank">Flexboxes</a>, 
+                            <a href="wk03/CAs/wk03-layout-practice/newsletter.html" target="_blank">Layout Practice</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a href="wk04/CAs/wk04-ca-simpleflex-image/index_final.html" target="_blank">Responsive image</a>, 
+                            <a href="wk04/CAs/wk04-ca-split-flex/index_final.html" target="_blank">Split UI</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <a href="wk06/CAs/1 Wk06_ JS Basics Recap/ca-IF-ELSE-statements/index.html" target="_blank">If-Else Statements</a>, 
+                            <a href="wk06/CAs/1 Wk06_ JS Basics Recap/ca-Loops/index.html" target="_blank">Loops</a>, 
+                            <a href="wk06/CAs/1 Wk06_ JS Basics Recap/ca-Print-array/index.html" target="_blank">Print Arrays</a>, 
+                            <a href="wk06/CAs/2 Wk06_ JS Objects/ca-Function-Objects/index.html" target="_blank">Function Object</a>, 
+                            <a href="wk06/CAs/2 Wk06_ JS Objects/ca-Literal-Object/index.html" target="_blank">Literal Object</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <a href="wk07/CAs/1 Wk07_ DOM/ca-grocery/index.html" target="_blank">DOM Grocery</a>  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <a href="wk08/CAs/Wk08-2-API/wk08-ca-randomuser/index.html" target="_blank">Random User Generator API Call</a>, 
+                            <a href="wk08/CAs/Wk08-2-API/Wk08-ca-Weather/index.html" target="_blank">Singapore 24-hour PSI API Call</a>   
+                        </td>
+                    </tr>
+                </table>
+            </section>  
+        </div> 
+    </body>
+</html>
